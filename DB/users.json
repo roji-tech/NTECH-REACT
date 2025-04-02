@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "johndoe",
+      "first_name": "John",
+      "last_name": "Doe",
+      "occupation": "Software Engineer",
+      "age": 30,
+      "date_of_birth": "1993-01-15",
+      "email": "john@doe.com",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": "2",
+      "username": "janedoe",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "occupation": "Data Scientist",
+      "age": 28,
+      "date_of_birth": "1995-03-22",
+      "email": "jane@doe.com",
+      "phone": "234-567-8901"
+    },
+    {
+      "id": "3",
+      "username": "mikesmith",
+      "first_name": "Mike",
+      "last_name": "Smith",
+      "occupation": "Product Manager",
+      "age": 35,
+      "date_of_birth": "1988-07-10",
+      "email": "mike@smith.com",
+      "phone": "345-678-9012"
+    },
+    {
+      "id": "4",
+      "username": "sarajones",
+      "first_name": "Sara",
+      "last_name": "Jones",
+      "occupation": "UX Designer",
+      "age": 27,
+      "date_of_birth": "1996-02-18",
+      "email": "sara@jones.com",
+      "phone": "456-789-0123"
+    },
+    {
+      "id": "5",
+      "username": "tomjohnson",
+      "first_name": "Tom",
+      "last_name": "Johnson",
+      "occupation": "DevOps Engineer",
+      "age": 32,
+      "date_of_birth": "1991-11-05",
+      "email": "tom@johnson.com",
+      "phone": "567-890-1234"
+    },
+    {
+      "id": "6",
+      "username": "emilybrown",
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "occupation": "Frontend Developer",
+      "age": 26,
+      "date_of_birth": "1997-06-12",
+      "email": "emily@brown.com",
+      "phone": "678-901-2345"
+    },
+    {
+      "id": "7",
+      "username": "davidlee",
+      "first_name": "David",
+      "last_name": "Lee",
+      "occupation": "Backend Developer",
+      "age": 29,
+      "date_of_birth": "1994-09-08",
+      "email": "david@lee.com",
+      "phone": "789-012-3456"
+    },
+    {
+      "id": "8",
+      "username": "laurawilson",
+      "first_name": "Laura",
+      "last_name": "Wilson",
+      "occupation": "QA Engineer",
+      "age": 31,
+      "date_of_birth": "1992-04-25",
+      "email": "laura@wilson.com",
+      "phone": "890-123-4567"
+    },
+    {
+      "id": "9",
+      "username": "chriswhite",
+      "first_name": "Chris",
+      "last_name": "White",
+      "occupation": "Cloud Architect",
+      "age": 34,
+      "date_of_birth": "1989-12-30",
+      "email": "chris@white.com",
+      "phone": "901-234-5678"
+    },
+    {
+      "id": "10",
+      "username": "annmartin",
+      "first_name": "Ann",
+      "last_name": "Martin",
+      "occupation": "AI Researcher",
+      "age": 25,
+      "date_of_birth": "1998-08-14",
+      "email": "ann@martin.com",
+      "phone": "012-345-6789"
+    },
+    {
+      "id": "11",
+      "username": "abdullahjamiu8@gmail.com",
+      "first_name": "Carly",
+      "last_name": "Rojitech",
+      "occupation": "CEO",
+      "age": "34",
+      "date_of_birth": "2025-04-25",
+      "email": "admin@domain.com",
+      "password": "zseawq",
+      "confirm_password": "zseawq",
+      "phone": "07078799"
+    }
+  ]
+}
