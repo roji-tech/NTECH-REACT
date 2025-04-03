@@ -1,28 +1,28 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import { Profile } from "./components/Profile";
 import { About } from "./components/About";
 import Hero from "./components/Hero";
-import Todo from "./components/Todo";
+import Todos from "./components/Todo";
 import { Counter } from "./components/Counter";
 import Form from "./components/ChatApp";
 import Game from "./components/TicTacToe";
 import MyForm from "./components/Form";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbars/Navbar1";
+import Users from "./components/users";
 
 function App() {
   return (
     <BrowserRouter>
-      {/* <Navbar /> */}
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Hero />} />
+        <Route path="/users" element={<Users />} />
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<Profile />} />
-        <Route path="/todo" element={<Todo />} />
+        <Route path="/todos" element={<Todos />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/form" element={<Form />} />
         <Route path="/game" element={<Game />} />

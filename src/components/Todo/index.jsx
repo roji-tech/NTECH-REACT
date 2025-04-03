@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import TodoList from "./TodoList";
 
-const Todo = () => {
+const Todos = () => {
   return (
     <div>
       <h1>MY TODOS</h1>
@@ -11,4 +11,4 @@ const Todo = () => {
   );
 };
 
-export default Todo;
+export default Todos;

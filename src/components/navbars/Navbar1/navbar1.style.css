@@ -1,0 +1,137 @@
+/* navbar1.style.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #00bcd4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .navbar-links a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-logo h1 {
+    font-size: 1.2rem;
+  }
+
+  .navbar-links a {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile Navbar Styles */
+.mobileNavbar {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-navbar-logo h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.mobile-navbar-links {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.mobile-navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.mobile-navbar-links a:hover {
+  color: #00bcd4;
+}
+
+/* Show mobile navbar on smaller screens */
+@media (max-width: 768px) {
+  .desktopNavbar {
+    display: none;
+  }
+
+  .mobileNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  .mobile-navbar-links.active {
+    display: flex;
+  }
+}
