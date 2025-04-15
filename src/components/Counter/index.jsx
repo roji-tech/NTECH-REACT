@@ -43,7 +43,7 @@ function reducer(state, action) {
   switch (action.type) {
     case ACTION_TYPES.INCREMENT:
       console.log(action);
-      return { count: state.count + 1 };
+      return { ...state, count: state.count + 1 };
     case ACTION_TYPES.DECREMENT:
       return { count: state.count - 1 };
     case ACTION_TYPES.INCREMENT_WITH_5:
@@ -59,7 +59,7 @@ function reducer(state, action) {
   }
 }
 
-function Counter() {
+export function Counter() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
@@ -69,8 +69,6 @@ function Counter() {
         onClick={() =>
           dispatch({
             type: ACTION_TYPES.INCREMENT,
-            value: "50",
-            nextValue: "100",
           })
         }
       >
@@ -80,8 +78,6 @@ function Counter() {
         onClick={() =>
           dispatch({
             type: ACTION_TYPES.DECREMENT,
-            value: "50",
-            nextValue: "100",
           })
         }
       >

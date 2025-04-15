@@ -11,9 +11,25 @@ import MyForm from "./components/Form";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbars/Navbar1";
 import Users from "./components/users";
+import { useEffect, useState } from "react";
 
 function App() {
-  return (
+  const [isLoading, setIsLoading] = useState(true);
+
+  if (true)
+    useEffect(() => {
+      const timeout = setTimeout(() => {
+        setIsLoading(false);
+      }, 3000);
+
+      return () => clearTimeout(timeout);
+    }, []);
+
+  return isLoading ? (
+    <div className="loading" style={{ textAlign: "center", marginTop: "20%" }}>
+      <h2>Loading...</h2>
+    </div>
+  ) : (
     <BrowserRouter>
       <Navbar />
 
