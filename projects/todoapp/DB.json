@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Jamiu",
+      "email": "admin@domain.com1",
+      "password": "opopopop"
+    },
+    {
+      "id": "2",
+      "username": "John",
+      "email": "john@domain.com1",
+      "password": "opopopop"
+    },
+    {
+      "id": "d96d",
+      "username": "mike",
+      "email": "mike@domain.com",
+      "password": "opopopop"
+    }
+  ],
+  "todos": []
+}
