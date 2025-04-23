@@ -13,11 +13,25 @@
       "password": "opopopop"
     },
     {
-      "id": "d96d",
+      "id": "daa",
       "username": "mike",
       "email": "mike@domain.com",
       "password": "opopopop"
     }
   ],
-  "todos": []
+  "todos": [
+    {
+      "title": "Clean up",
+      "description": "Living room, Kitchen, Bathroom",
+      "completed": true,
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "title": "Finish project for ntech",
+      "description": "Complete the final report and presentation",
+      "completed": false,
+      "userId": "1"
+    }
+  ]
 }
