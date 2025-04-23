@@ -13,16 +13,16 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
+        <Route path="/register" element={<Register />} />
         <Route
-          path="/"
+          path="/counter"
           element={
             <ProtectedRoute isAuthenticated={isLoggedIn}>
-              <Login setIsLoggedIn={setIsLoggedIn} />
+              <Todos isLoggedIn={isLoggedIn} />
             </ProtectedRoute>
           }
         />
-        <Route path="/register" element={<Register />} />
-        <Route path="/counter" element={<Todos isLoggedIn={isLoggedIn} />} />
       </Routes>
     </BrowserRouter>
   );
