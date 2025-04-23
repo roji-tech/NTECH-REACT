@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Todos from "./components/Todos";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(
@@ -12,7 +13,14 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
+        <Route
+          path="/"
+          element={
+            <ProtectedRoute isAuthenticated={isLoggedIn}>
+              <Login setIsLoggedIn={setIsLoggedIn} />
+            </ProtectedRoute>
+          }
+        />
         <Route path="/register" element={<Register />} />
         <Route path="/counter" element={<Todos isLoggedIn={isLoggedIn} />} />
       </Routes>
