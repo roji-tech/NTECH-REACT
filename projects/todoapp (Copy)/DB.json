@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Jamiu",
+      "email": "admin@domain.com1",
+      "password": "opopopop"
+    },
+    {
+      "id": "2",
+      "username": "John",
+      "email": "john@domain.com1",
+      "password": "opopopop"
+    },
+    {
+      "id": "daa",
+      "username": "mike",
+      "email": "mike@domain.com",
+      "password": "opopopop"
+    }
+  ],
+  "todos": [
+    {
+      "title": "Clean up",
+      "description": "Living room, Kitchen, Bathroom",
+      "completed": true,
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "title": "Finish project for ntech",
+      "description": "Complete the final report and presentation",
+      "completed": false,
+      "userId": "1"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Jamiu",
+      "email": "admin@domain.com1",
+      "password": "opopopop"
+    },
+    {
+      "id": "2",
+      "username": "John",
+      "email": "john@domain.com1",
+      "password": "opopopop"
+    },
+    {
+      "id": "daa",
+      "username": "mike",
+      "email": "mike@domain.com",
+      "password": "opopopop"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "My first blog",
+      "content": "This is the content of my first blog.",
+      "authorId": "1",
+      "isPublic": true
+    },
+    {
+      "id": "2",
+      "title": "My second blog",
+      "content": "This is the content of my second blog.",
+      "authorId": "2",
+      "isPublic": false
+    },
+    {
+      "id": "3",
+      "title": "My third blog",
+      "content": "This is the content of my third blog.",
+      "authorId": "daa",
+      "isPublic": true,
+      "tags": [
+        "kitchen",
+        "home"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "My second blog",
+      "content": "This is the content of my second blog.",
+      "authorId": "2",
+      "isPublic": false,
+      "tags": [
+        "education",
+        "school"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "My third blog",
+      "content": "This is the content of my third blog.",
+      "authorId": "daa",
+      "isPublic": true,
+      "tags": [
+        "entertainment",
+        "movies"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "My second blog",
+      "content": "This is the content of my second blog.",
+      "authorId": "2",
+      "isPublic": false,
+      "tags": [
+        "education",
+        "school"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "My third blog",
+      "content": "This is the content of my third blog.",
+      "authorId": "daa",
+      "isPublic": true,
+      "tags": [
+        "entertainment",
+        "movies"
+      ]
+    }
+  ]
+}
